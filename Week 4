@@ -1,1 +1,38 @@
+Coursera 
+ Capstone Project - The Battle of Neighborhoods
+
+
+•	A description of the problem and a discussion of the background. 
+
+Kochi is a vibrant and upcoming city in the heart of Kerala , a state in India . It is fast developing and shows promise for great business prosperity in the food & beverage industry .
+Business Group A plans to establish a coffee shop in the region and has plans to expand its reach in Kochi in the future based on its success .
+In order to start its “pilot project” the company has decided to get help from a data analyst in order to decide on the location that is most profitable and suitable to set up shop . 
+The business problem is to find a location with prospective customers and a well established neighborhood, that at the same time is not too crowded with similar shops to establish a coffee shop . In order to determine popularity of a location ,various facilities and shops set up there are to be analyzed and studied.
+This project helps by reducing manual search needed to find a location and provides the client with an easier and efficient alternative.
+
+•	Approach :
+
+Kochi being a fairly sized city, has to be segmented based on the popular and prominent locales. Ones the data regarding the locations is collected by scrapping the internet ,it is filtered to provide uniformity .Once the core locations have been found, shops and other amenities near it are discovered. This information is analyzed using Clustering techniques to study various regions and provide a conclusive result that gives a suitable location to set up shop.
+
+•	Data & Tools :
+
+Wikepedia :   
+https://en.wikipedia.org/wiki/Neighbourhoods_of_Kochi 
+Details about the various regions in the city was scrapped from the above mentioned page.
+
+Foursquare API : 
+It is the prime data gathering source as it has a database of millions of places, especially their places API which provides the ability to perform location search, location sharing and details about a business.
+
+
+
+•	Libraries Used:
+
+Pandas: For creating and manipulating dataframes.
+Folium: Python visualization library would be used to visualize the neighborhoods cluster distribution of using interactive leaflet map.
+Scikit Learn: For importing k-means clustering.
+JSON: Library to handle JSON files.
+XML: To separate data from presentation and XML stores data in plain text format.
+Geocoder: To retrieve Location Data.
+Beautiful Soup and Requests: To scrap and library to handle http requests.
+Matplotlib: Python Plotting Module.
 
